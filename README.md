@@ -12,8 +12,8 @@ Steps to use custom filter.
 
 2.  Define your solr core.
 3.  In your core's solrconfig.xml define the custom library ( Jar file )
+<p>&nbsp; &nbsp; &nbsp; &lt;lib path=&quot;../custom-lib/customfilter.jar&quot; /&gt;</p>
       
-      <lib path="../custom-lib/customfilter.jar" />
   
 4.  Now the custom filter can be used in your solr core. You can use it by defining a custom solr field / custom analyzer for your schema.xml of your core.
     
