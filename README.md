@@ -7,7 +7,9 @@ Steps to use custom filter.
     https://github.com/soumyagayen/solressietokenizer/tree/main/solrEssieTokenizer/target/solrEssieTokenizer-1.0-SNAPSHOT.jar
     at the below solr path
     <br>
+    <pre>
     /<solr installtion directory>/server/solr/custom-lib/solrEssieTokenizer-1.0-SNAPSHOT.jar
+    </pre>
     
 2.  Define your solr core.
 3.  In your core's solrconfig.xml define the custom library ( Jar file )
